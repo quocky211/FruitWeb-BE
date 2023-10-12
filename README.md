@@ -7,8 +7,10 @@ Step 2: Clone project
 
 Step 3: Open terminal: cp .env.example .env
 
-Step 4: php artisan key:generate
+Step 4: composer install
 
-Step 5: php artisan migrate:fresh --seed
+Step 5: php artisan key:generate
 
-Step 6: php artisan serve
+Step 6: php artisan migrate:fresh --seed
+
+Step 7: php artisan serve
